@@ -66,8 +66,17 @@ document.addEventListener("DOMContentLoaded", function() {
                         card.style.display = "none";
                     }
                 });
+
+                // Highlight the selected filter button
+                Array.prototype.forEach.call(filterButtons, function(btn) {
+                    btn.classList.remove("active");
+                });
+                this.classList.add("active");
             });
         });
+
+        // Set default active filter
+        document.querySelector('.filter-btn[data-type="all"]').classList.add("active");
 
         // Info popup
         var infoButtons = document.getElementsByClassName("info-btn");
