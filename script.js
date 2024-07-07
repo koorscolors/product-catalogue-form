@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 });
 
-                // Highlight the selected filter button
+                // Highlight the selected filter buttons
                 Array.prototype.forEach.call(filterButtons, function(btn) {
                     btn.classList.remove("active");
                 });
