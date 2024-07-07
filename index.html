@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Cards with Modal Form, Filtering, and Info Popup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Filter Tabs -->
+    <div class="filter-tabs">
+        <button class="filter-btn" data-type="all">Show All</button>
+        <button class="filter-btn" data-type="animal">Animal</button>
+        <button class="filter-btn" data-type="vehicle">Vehicle</button>
+        <button class="filter-btn" data-type="other">Other</button>
+    </div>
+
+    <!-- Item Cards Container -->
+    <div id="itemContainer" class="item-container"></div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="itemForm" action="https://docs.google.com/forms/d/e/1FAIpQLSdcDa0xla8DRY4qY_wX_jPo9coLOriv9TmlPBi6gx245AIRiA/formResponse">
+                <label for="itemName">Item Name:</label>
+                <input type="text" id="itemName" name="entry.1655467326" readonly><br><br>
+                <label for="quantity">How Many:</label>
+                <input type="number" id="quantity" name="entry.1616943868" max="250,000">
+                <small id="quantityWarning" class="warning-text"></small><br><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="entry.1371630634"><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Info Popup -->
+    <div id="infoPopup" class="info-popup">
+        <div class="info-content">
+            <span class="close-info">&times;</span>
+            <div id="infoDetails"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

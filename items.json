@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Item 1",
+        "type": "animal",
+        "description": "Short description of Item 1.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Item 2",
+        "type": "vehicle",
+        "description": "Short description of Item 2.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Item 3",
+        "type": "other",
+        "description": "Short description of Item 3.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Item 5",
+        "type": "animal",
+        "description": "Short description of Item 4.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Item 5",
+        "type": "vehicle",
+        "description": "Short description of Item 5.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Item 6",
+        "type": "other",
+        "description": "Short description of Item 6.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Item 7",
+        "type": "animal",
+        "description": "Short description of Item 7.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Item 8",
+        "type": "vehicle",
+        "description": "Short description of Item 8.",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "name": "Item 9",
+        "type": "animal",
+        "description": "Short description of Item 9.",
+        "image": "https://via.placeholder.com/150"
+    }
+]
